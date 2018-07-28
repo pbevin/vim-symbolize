@@ -1,0 +1,16 @@
+*vim-symbolize* Convert between Ruby symbols and strings
+
+Author: Pete Bevin <pete@petebevin.com>
+License: MIT (see LICENSE file)
+
+INTRODUCTION                  *vim-symbolize*
+
+This plugin provides two key bindings, one to convert
+a Ruby symbol like :abc into a string like "abc", and
+another to convert a string back to a symbol.
+
+
+USAGE
+
+  nmap <leader>sa <Plug>SymToStr
+  nmap <leader>ss <Plug>StrToSym
